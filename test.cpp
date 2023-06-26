@@ -102,12 +102,12 @@ int main()
 		minGL.pollEvents();
 		minGL.processInput();
 
-        for(int a = 0; a < 1000; a++)
+        for(int a = 0; a < 1200; a++)
         {
 
             float aCoordinate = convertIteratorToCoordinate(a);
 
-            for(int b = 0; b < 1000; b++)
+            for(int b = 0; b < 1200; b++)
             {
                 float bCoordinate = convertIteratorToCoordinate(b);
                 if(divergesToInfinity(aCoordinate, bCoordinate)){
