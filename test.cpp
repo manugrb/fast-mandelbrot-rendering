@@ -120,7 +120,7 @@ int main()
 
         }	
 
-        minGL.flush(0.18f, 0.32f, 0.39f, 1.00f);
+        minGL.flush(0.0f, 0.0f, 0.0f, 1.00f);
         
 	}
 
