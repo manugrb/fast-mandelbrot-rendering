@@ -18,12 +18,6 @@ std::array<double, 2> f(double za, double zb, float a, float b)
     double resulta = zza + a;
     double resultb = zzb + b;
 
-    // std::cout << resulta << "resa" << std::endl;
-    // std::cout << resultb << "resb" << std::endl;
-    // std::cout << zza << "zza" << std::endl;
-    // std::cout << zzb << "zzb" << std::endl;
-    // std::cout << a << "a" << std::endl;
-    // std::cout << b << "b" << std::endl;
 
 
 
@@ -49,8 +43,6 @@ bool divergesToInfinity(float a, float b)
         
         // to figure out if z is further than 2 away from 0, we square the real and imaginary part, add them and check if the result is bigger than 2². (a² + b² = c²)
 
-        // std::cout << za << "za" << std::endl;
-        // std::cout << zb << "zb" << std::endl;
 
         if((za * za + zb * zb) >= 2 * 2){
 
