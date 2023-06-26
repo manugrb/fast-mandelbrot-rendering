@@ -42,7 +42,7 @@ bool divergesToInfinity(float a, float b)
     double za = 0;
     double zb = 0;
 
-    int maxIterations = 400;
+    int maxIterations = 1000;
 
     for(int iteration = 0; iteration < maxIterations; iteration++)
     {
