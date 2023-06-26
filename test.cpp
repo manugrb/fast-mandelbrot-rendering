@@ -73,7 +73,7 @@ float convertIteratorToCoordinate(int number){
 
     float minValue = 0.3f;
     float maxValue = 0.5f;
-    float maxIteratorValue = 1000.0f;
+    float maxIteratorValue = 1200.0f;
 
     float interval = maxValue - minValue;
     float relativeValue = number / maxIteratorValue;
