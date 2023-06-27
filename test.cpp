@@ -61,11 +61,27 @@ bool divergesToInfinity(float a, float b)
 
 }
 
-float convertIteratorToCoordinate(int number){
+float convertIteratorToXCoordinate(int number, int numberLimit){
 
-    float minValue = 0.3f;
-    float maxValue = 0.5f;
-    float maxIteratorValue = 1200.0f;
+    float minValue = -2.0f;
+    float maxValue = 1.0f;
+
+    float maxIteratorValue = 1920.0f;
+
+    float interval = maxValue - minValue;
+    float relativeValue = number / maxIteratorValue;
+
+    float absoluteValue = minValue + relativeValue * interval;
+    return absoluteValue;
+
+}
+
+float convertIteratorToYCoordinate(int number, int numberLimit){
+
+    float minValue = -0.75f;
+    float maxValue = 0.75f;
+
+    float maxIteratorValue = 1080.0f;
 
     float interval = maxValue - minValue;
     float relativeValue = number / maxIteratorValue;
@@ -78,8 +94,8 @@ float convertIteratorToCoordinate(int number){
 int main()
 {
 	// Window sizes
-	const int width = 1200;
-	const int height = 1200;
+	const int width = 1920;
+	const int height = 1080;
 	MinGL minGL;
 	if (!minGL.init(width, height, "MinGL"))
 		return -1;
@@ -94,14 +110,14 @@ int main()
 		minGL.pollEvents();
 		minGL.processInput();
 
-        for(int a = 0; a < 1200; a++)
+        for(int a = 0; a < width; a++)
         {
 
-            float aCoordinate = convertIteratorToCoordinate(a);
+            float aCoordinate = convertIteratorToXCoordinate(a, width);
 
-            for(int b = 0; b < 1200; b++)
+            for(int b = 0; b < height; b++)
             {
-                float bCoordinate = convertIteratorToCoordinate(b);
+                float bCoordinate = convertIteratorToYCoordinate(b, height);
                 if(divergesToInfinity(aCoordinate, bCoordinate)){
                     minGL.putPixel(a, b, green);
                 }
