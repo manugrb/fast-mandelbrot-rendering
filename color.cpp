@@ -36,7 +36,7 @@ int divergesToInfinity(float a, float b)
     double za = 0;
     double zb = 0;
 
-    int maxIterations = 200;
+    int maxIterations = 100;
 
     for(int iteration = 0; iteration < maxIterations; iteration++)
     {
@@ -120,7 +120,7 @@ int main()
                 float bCoordinate = convertIteratorToYCoordinate(b, height);
 
                 int nPasses = divergesToInfinity(aCoordinate, bCoordinate);
-                float relPasses = nPasses / 200.0f;
+                float relPasses = nPasses / 100.0f;
 
                 const MinGLColor color = { relPasses, 0.0f, 0.0f, 1.0f};
                 minGL.putPixel(a, b, color);
