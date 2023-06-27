@@ -102,8 +102,8 @@ int main()
 
 	const char* glsl_version = "#version 130";
 
-    // Draw a green cube
-    const MinGLColor green{ 0.0f, 1.0f, 0.0f, 1.0f };
+    const MinGLColor red{ 1.0f, 0.0f, 0.0f, 1.0f };
+
 
 	while (!minGL.windowShouldClose())
 	{
@@ -119,7 +119,7 @@ int main()
             {
                 float bCoordinate = convertIteratorToYCoordinate(b, height);
                 if(divergesToInfinity(aCoordinate, bCoordinate)){
-                    minGL.putPixel(a, b, green);
+                    minGL.putPixel(a, b, red);
                 }
 
             }
