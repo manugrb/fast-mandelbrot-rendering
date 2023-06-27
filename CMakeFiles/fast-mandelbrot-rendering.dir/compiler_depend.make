@@ -195,74 +195,7 @@ CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o: MinGL.cpp \
   /usr/include/c++/13/istream \
   /usr/include/c++/13/bits/istream.tcc
 
-CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o: glad.c \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/features-time64.h \
-  /usr/include/bits/wordsize.h \
-  /usr/include/bits/timesize.h \
-  /usr/include/sys/cdefs.h \
-  /usr/include/bits/long-double.h \
-  /usr/include/gnu/stubs.h \
-  /usr/include/gnu/stubs-64.h \
-  /usr/lib64/gcc/x86_64-suse-linux/13/include/stddef.h \
-  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdarg.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/time64.h \
-  /usr/include/bits/types/__fpos_t.h \
-  /usr/include/bits/types/__mbstate_t.h \
-  /usr/include/bits/types/__fpos64_t.h \
-  /usr/include/bits/types/__FILE.h \
-  /usr/include/bits/types/FILE.h \
-  /usr/include/bits/types/struct_FILE.h \
-  /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/floatn.h \
-  /usr/include/bits/floatn-common.h \
-  /usr/include/stdlib.h \
-  /usr/include/bits/waitflags.h \
-  /usr/include/bits/waitstatus.h \
-  /usr/include/sys/types.h \
-  /usr/include/bits/types/clock_t.h \
-  /usr/include/bits/types/clockid_t.h \
-  /usr/include/bits/types/time_t.h \
-  /usr/include/bits/types/timer_t.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/endian.h \
-  /usr/include/bits/endian.h \
-  /usr/include/bits/endianness.h \
-  /usr/include/bits/byteswap.h \
-  /usr/include/bits/uintn-identity.h \
-  /usr/include/sys/select.h \
-  /usr/include/bits/select.h \
-  /usr/include/bits/types/sigset_t.h \
-  /usr/include/bits/types/__sigset_t.h \
-  /usr/include/bits/types/struct_timeval.h \
-  /usr/include/bits/types/struct_timespec.h \
-  /usr/include/bits/pthreadtypes.h \
-  /usr/include/bits/thread-shared-types.h \
-  /usr/include/bits/pthreadtypes-arch.h \
-  /usr/include/bits/atomic_wide_counter.h \
-  /usr/include/bits/struct_mutex.h \
-  /usr/include/bits/struct_rwlock.h \
-  /usr/include/alloca.h \
-  /usr/include/bits/stdlib-float.h \
-  /usr/include/string.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/glad/glad.h \
-  /usr/include/KHR/khrplatform.h \
-  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/dlfcn.h \
-  /usr/include/bits/dlfcn.h
-
-CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o: color.cpp \
   /usr/include/stdc-predef.h \
   MinGL.h \
   /usr/include/glad/glad.h \
@@ -483,6 +416,75 @@ CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
   /usr/include/c++/13/array \
   /usr/include/c++/13/compare
 
+CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o: glad.c \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/timesize.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stddef.h \
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdarg.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/time64.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/endianness.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/atomic_wide_counter.h \
+  /usr/include/bits/struct_mutex.h \
+  /usr/include/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/string.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/strings.h \
+  /usr/include/glad/glad.h \
+  /usr/include/KHR/khrplatform.h \
+  /usr/lib64/gcc/x86_64-suse-linux/13/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/dlfcn.h \
+  /usr/include/bits/dlfcn.h
+
+
+/usr/include/bits/dlfcn.h:
 
 /usr/include/c++/13/compare:
 
@@ -494,6 +496,10 @@ CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
 
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
+/usr/include/strings.h:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
 /usr/include/c++/13/tr1/gamma.tcc:
 
 /usr/include/bits/iscanonical.h:
@@ -502,9 +508,11 @@ CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
 
 /usr/include/bits/mathcalls-helper-functions.h:
 
-/usr/include/bits/libm-simd-decl-stubs.h:
+/usr/include/dlfcn.h:
 
-/usr/include/c++/13/cmath:
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/bits/fp-logb.h:
 
 /usr/include/bits/types/clock_t.h:
 
@@ -539,8 +547,6 @@ CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
 /usr/include/c++/13/initializer_list:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/bits/dlfcn.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
@@ -605,6 +611,8 @@ CMakeFiles/fast-mandelbrot-rendering.dir/test.cpp.o: test.cpp \
 /usr/include/bits/locale.h:
 
 /usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -719,6 +727,10 @@ MinGL.h:
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/13/tuple:
+
+glad.c:
+
+/usr/include/locale.h:
 
 /usr/include/bits/time.h:
 
@@ -848,13 +860,7 @@ MinGL.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/locale.h:
-
-glad.c:
-
 /usr/include/bits/waitstatus.h:
-
-test.cpp:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
@@ -894,14 +900,6 @@ test.cpp:
 
 /usr/include/bits/types/error_t.h:
 
-/usr/include/bits/math-vector.h:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h:
-
-/usr/include/c++/13/system_error:
-
 /usr/include/bits/cpu-set.h:
 
 /usr/include/asm-generic/errno-base.h:
@@ -920,18 +918,20 @@ test.cpp:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
+color.cpp:
+
 /usr/include/c++/13/bits/istream.tcc:
 
-/usr/include/math.h:
+/usr/include/c++/13/cmath:
 
 /usr/include/string.h:
 
-/usr/include/c++/13/tr1/special_function_util.h:
+/usr/include/math.h:
 
-/usr/include/strings.h:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/13/tr1/hypergeometric.tcc:
+/usr/include/c++/13/x86_64-suse-linux/bits/c++locale.h:
 
-/usr/include/bits/fp-logb.h:
+/usr/include/c++/13/system_error:
 
-/usr/include/dlfcn.h:
+/usr/include/bits/math-vector.h:
