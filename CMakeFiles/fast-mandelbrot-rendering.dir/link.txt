@@ -1,1 +1,1 @@
-/usr/bin/c++ "CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o" "CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o" "CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o" -o fast-mandelbrot-rendering  -lGL -ldl -lglfw 
+/usr/bin/c++ "CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o" "CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o" "CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o" -o fast-mandelbrot-rendering  -lGL -ldl -lglfw 
