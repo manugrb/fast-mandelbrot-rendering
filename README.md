@@ -8,9 +8,11 @@ This is simply a faster version of the mandelbrot-set repository, which is writt
 To learn more about the Mandelbrot set, check out this wikipedia article: https://en.wikipedia.org/wiki/Mandelbrot_set
 
 ## Color version
+![Screenshot_20230628_173009](https://github.com/manugrb/fast-mandelbrot-rendering/assets/81778405/2b85fd95-bf76-487f-9319-60a674eace9b)
 
 
 ## Single color version
+![Screenshot_20230628_155554](https://github.com/manugrb/fast-mandelbrot-rendering/assets/81778405/d48d8a97-da0d-4eb7-8dd9-3ee123987f25)
 
 
 
