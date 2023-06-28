@@ -83,10 +83,24 @@ CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/glad.c -o CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.s
 
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/flags.make
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o: color.cpp
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o -MF CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o.d -o CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o -c /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/color.cpp
+
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/color.cpp > CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.i
+
+CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/color.cpp -o CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.s
+
 CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/flags.make
 CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o: main.cpp
 CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o -MF CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o.d -o CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o -c /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/main.cpp
 
 CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.s: cmake_force
 CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/flags.make
 CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o: MinGL.cpp
 CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o: CMakeFiles/fast-mandelbrot-rendering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o -MF CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o.d -o CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o -c /home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/MinGL.cpp
 
 CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.i: cmake_force
@@ -114,6 +128,7 @@ CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.s: cmake_force
 # Object files for target fast-mandelbrot-rendering
 fast__mandelbrot__rendering_OBJECTS = \
 "CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o" \
+"CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o" \
 "CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o" \
 "CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o"
 
@@ -121,11 +136,12 @@ fast__mandelbrot__rendering_OBJECTS = \
 fast__mandelbrot__rendering_EXTERNAL_OBJECTS =
 
 fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o
+fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o
 fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o
 fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.o
 fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/build.make
 fast-mandelbrot-rendering: CMakeFiles/fast-mandelbrot-rendering.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fast-mandelbrot-rendering"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/manuel/Desktop/code/c++/fast-mandelbrot-rendering/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fast-mandelbrot-rendering"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fast-mandelbrot-rendering.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

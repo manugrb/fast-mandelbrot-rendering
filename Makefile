@@ -153,6 +153,30 @@ MinGL.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fast-mandelbrot-rendering.dir/build.make CMakeFiles/fast-mandelbrot-rendering.dir/MinGL.cpp.s
 .PHONY : MinGL.cpp.s
 
+color.o: color.cpp.o
+.PHONY : color.o
+
+# target to build an object file
+color.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fast-mandelbrot-rendering.dir/build.make CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o
+.PHONY : color.cpp.o
+
+color.i: color.cpp.i
+.PHONY : color.i
+
+# target to preprocess a source file
+color.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fast-mandelbrot-rendering.dir/build.make CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.i
+.PHONY : color.cpp.i
+
+color.s: color.cpp.s
+.PHONY : color.s
+
+# target to generate assembly for a file
+color.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fast-mandelbrot-rendering.dir/build.make CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.s
+.PHONY : color.cpp.s
+
 glad.o: glad.c.o
 .PHONY : glad.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... MinGL.o"
 	@echo "... MinGL.i"
 	@echo "... MinGL.s"
+	@echo "... color.o"
+	@echo "... color.i"
+	@echo "... color.s"
 	@echo "... glad.o"
 	@echo "... glad.i"
 	@echo "... glad.s"
