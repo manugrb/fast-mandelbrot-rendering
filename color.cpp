@@ -63,8 +63,8 @@ int divergesToInfinity(float a, float b)
 
 float convertIteratorToXCoordinate(int number, int numberLimit){
 
-    float minValue = -2.0f;
-    float maxValue = 1.0f;
+    float minValue = -2.5f;
+    float maxValue = 1.6f;
 
     float maxIteratorValue = numberLimit / 1.0f; // convert numberLimit to float
 
@@ -78,8 +78,8 @@ float convertIteratorToXCoordinate(int number, int numberLimit){
 
 float convertIteratorToYCoordinate(int number, int numberLimit){
 
-    float minValue = -0.75f;
-    float maxValue = 0.75f;
+    float minValue = -1.15f;
+    float maxValue = 1.15f;
 
     float maxIteratorValue = numberLimit / 1.0f; // convert numberLimit to float
 
@@ -91,11 +91,33 @@ float convertIteratorToYCoordinate(int number, int numberLimit){
 
 }
 
+float getRedValue(float value){
+
+    return std::sqrt(value);
+
+}
+
+float getGreenValue(float value){
+
+    return std::pow(value, 3.0f);
+
+}
+
+float getBlueValue(float value){
+
+    float potentialResult = std::sin(2 * M_PI * value);
+    if(potentialResult > 0){
+        return potentialResult;
+    }
+    return 0;
+
+}
+
 int main()
 {
 	// Window sizes
 	const int width = 1920;
-	const int height = 1080;
+	const int height = 1050; //bit less than display size because window bar at the top takes up some place
 	MinGL minGL;
 	if (!minGL.init(width, height, "MinGL"))
 		return -1;
@@ -120,9 +142,18 @@ int main()
                 float bCoordinate = convertIteratorToYCoordinate(b, height);
 
                 int nPasses = divergesToInfinity(aCoordinate, bCoordinate);
-                float relPasses = nPasses / 100.0f;
+                float relValue = nPasses / 100.0f;
+                float redValue = getRedValue(relValue);
+                float greenValue = getGreenValue(relValue);
+                float blueValue = getBlueValue(relValue);
 
-                const MinGLColor color = { relPasses, 0.0f, 0.0f, 1.0f};
+                if(nPasses == 100){
+                    greenValue = 0.0f;
+                    blueValue = 0.0f;
+                    redValue = 0.0f;
+                }
+
+                const MinGLColor color = { redValue, greenValue, blueValue, 1.0f};
                 minGL.putPixel(a, b, color);
 
             }
