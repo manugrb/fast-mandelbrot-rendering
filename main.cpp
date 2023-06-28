@@ -64,7 +64,7 @@ bool divergesToInfinity(float a, float b)
 float convertIteratorToXCoordinate(int number, int numberLimit){
 
     float minValue = -2.0f;
-    float maxValue = 1.0f;
+    float maxValue = 1.5f;
 
     float maxIteratorValue = 1920.0f;
 
@@ -78,10 +78,10 @@ float convertIteratorToXCoordinate(int number, int numberLimit){
 
 float convertIteratorToYCoordinate(int number, int numberLimit){
 
-    float minValue = -0.75f;
-    float maxValue = 0.75f;
+    float minValue = -0.9f;
+    float maxValue = 0.9f;
 
-    float maxIteratorValue = 1080.0f;
+    float maxIteratorValue = 1050.0f;
 
     float interval = maxValue - minValue;
     float relativeValue = number / maxIteratorValue;
@@ -95,7 +95,7 @@ int main()
 {
 	// Window sizes
 	const int width = 1920;
-	const int height = 1080;
+	const int height = 1050;
 	MinGL minGL;
 	if (!minGL.init(width, height, "MinGL"))
 		return -1;
