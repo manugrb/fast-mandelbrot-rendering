@@ -66,7 +66,7 @@ float convertIteratorToXCoordinate(int number, int numberLimit){
     float minValue = -2.0f;
     float maxValue = 1.0f;
 
-    float maxIteratorValue = 1920.0f;
+    float maxIteratorValue = numberLimit / 1.0f; // convert numberLimit to float
 
     float interval = maxValue - minValue;
     float relativeValue = number / maxIteratorValue;
@@ -81,7 +81,7 @@ float convertIteratorToYCoordinate(int number, int numberLimit){
     float minValue = -0.75f;
     float maxValue = 0.75f;
 
-    float maxIteratorValue = 1080.0f;
+    float maxIteratorValue = numberLimit / 1.0f; // convert numberLimit to float
 
     float interval = maxValue - minValue;
     float relativeValue = number / maxIteratorValue;

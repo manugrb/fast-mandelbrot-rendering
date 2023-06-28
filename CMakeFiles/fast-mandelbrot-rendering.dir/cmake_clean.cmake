@@ -5,8 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/fast-mandelbrot-rendering.dir/color.cpp.o.d"
   "CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o"
   "CMakeFiles/fast-mandelbrot-rendering.dir/glad.c.o.d"
-  "CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o"
-  "CMakeFiles/fast-mandelbrot-rendering.dir/main.cpp.o.d"
   "fast-mandelbrot-rendering"
   "fast-mandelbrot-rendering.pdb"
 )
